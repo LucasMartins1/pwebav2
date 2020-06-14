@@ -7,43 +7,14 @@
 
 <?php 
  
- $ano           =    2016;
+$salario_inicial = 1000;
+$aumento_anual = 1.5;
+$ano = 2016;
 
- $pararLoop     =    2021;
-  
-for($ano = 2016; ; $ano++){
-     if($ano == $pararLoop){
-        break;
-    }
-    echo $ano."<br>";
-}
- ?>
-<?php
- $salario_inicial       =       1000;
- $aumento               =      1.5/100;
 
-function porcentagem ( $salario_inicial ,$aumento){
-  $resultado=($salario_inicial*$aumento);
-return $resultado;
 
-echo $resultado."<br>";
-}
 
- ?>
-<?php 
- 
- $ano           =    2016;
- $aumento       =    1,5/100;
- $salario       =    1000
- $pararLoop     =    2020;
-  
-for($ano = 2016; ; $ano++){
-     if($ano == $pararLoop){
-        break;
-    }
-    echo $ano."<br>";
-}
-  }
+
  ?>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -64,12 +35,12 @@ for($ano = 2016; ; $ano++){
       <div class="container-fluid">
               <div class="row mb-2">
                 <div class="col-sm-6">
-                  <h1 class="m-0 text-dark">Questão 4</h1>
+                  <h1 class="m-0 text-dark">Questão 5</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                   <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active">Questão 4</li>
+                    <li class="breadcrumb-item active">Questão 5</li>
                   </ol>
                 </div><!-- /.col -->
               </div><!-- /.row -->
@@ -84,35 +55,27 @@ for($ano = 2016; ; $ano++){
                     <!-- Horizontal Form -->
             <div class="card card-info">
                 <div class="card-header">
-                    <h3 class="card-title">Convertendo m/s em Km/h</h3>
+                    <h3 class="card-title">Aumentando salário anualmente</h3>
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
-                <form name="form_calculo" id="form_calculo" action="" method="POST" class="form-horizontal">
-                    <div class="card-body">
-                    <div class="form-group row">
-                        <label for="val1" class="col-sm-2 col-form-label">Velocidade</label>
-                        <div class="col-sm-10">
-                        <input type="number" min="0" class="form-control" id="val1" name="val1" placeholder="Ex.: 500 m/s " required>
-                        </div>
-                    </div>
-                   
-                    
-                    <!-- /.card-body -->
-                    <div class="card-footer">
-                    <button type="submit" class="btn btn-info">Calcular</button>
-                    <button type="reset" class="btn btn-default float-right">Cancelar</button>
-                    </div>
-                    <!-- /.card-footer -->
-                </form>
+           
             </div>
     
-            <?php echo "O Resultado é: " .calculo(number_format($val1,2))."K/H";?>
             
        </div><!-- /.container-fluid -->
   </section>
+  <?php
+$ano = 2016;
+$salario_inicial=1000;
+$aumento_anual=1.5;
 
-
+while($ano <= 2020) {
+  echo "<br> No ano   $ano "." - " ." O salário era : ".((($aumento_anual*$salario_inicial)/100)+$salario_inicial);
+  $ano++;
+  $aumento_anual+=$aumento_anual;
+}
+?>
 
         <?php 
           include "_includes/footer.php"
