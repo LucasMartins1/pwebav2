@@ -1,8 +1,11 @@
 <!-- /.content-wrapper -->
 <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 3.0.5
-    </div>
-  </footer>
+            <strong>Esse site foi produzino por Lucas Martins &copy; 2020 <a >GIT HUB</a>.</strong>
+            <a  img src="dist/img/git.jpg" alt="Responsive image" class="brand-image img-circle elevation-10 " target="_blank" href="https://github.com/LucasMartins1/pwebav2.git">
+              <i  class="fab fa-github"></i>
+            <div class="float-right d-none d-sm-inline-block">
+           </div>
+  
+ </footer>
+              
+             

@@ -12,13 +12,10 @@
         include "_includes/menu.php";
      ?>
       <!-- /.sidebar-menu -->
-    </div>
-    <!-- /.sidebar -->
   
 
-
                <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+               <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
@@ -44,25 +41,51 @@
                                       <!-- Horizontal Form -->
                               <div class="card card-info">
                                   <div class="card-header">
-                                      <h1 class="card-title"> Programação WEB - Unileão</h1>
+                                      <h1 class="card-title"> Curriculo</h1>
+                                  </div>
+                                  <div> 
+                                  <p ><h2> Lucas Pereira Martins De Almeida   
+                                     </h2>
+                                  <p> <h3> Informações pessoais:   </h3>
+                                  <p> <h5> Cidade - Santana do Cariri - CE   </h5>
+                                  <p> <h5> Solteiro  </h5>
+                                  <p> <h5> 23 anos   </h5>
+                                  <p> <h3 > Formação acadêmica :  </h3>
+                                  <p> <h4 > Superior Incompleto  </h4>
+                                  <p> <h5> Graduando em Análise e desenvolvimento de Software - Unileão   </h5>
+                                  <p> <h3 > Experiência Profissional :  </h3>
+                                  <p> <h5> 3 Meses como facilitador no projeto do Governo (Novo Mais Educação)   </h5>
                                   </div>
                                        <!-- Content here -->
                               </div>
-                                 <p> <img src="dist/img/ads.jpg" class="card-img-top" alt="análise e desenvolvimento de software">
+                                
                           </div>
   </section>
+          
 
 
 
 
 
   
-
+</div>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
  
         
-
+       
+              <!-- /.card-header -->
+              <div class="card-body pt-0">
+                <!--The calendar -->
+            </div>
+            <!-- /.card -->
+          </section>
+                <!-- right col -->
+                </div>
+              <!-- /.row (main row) -->
+                </div><!-- /.container-fluid -->
+            </section>
+    <!-- /.content -->
   
       <?php 
           include "_includes/footer.php"

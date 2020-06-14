@@ -194,6 +194,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 
 .lockscreen-footer {
   margin-top: 10px;
+  background-color: #000;
 }
 
 .login-logo,
